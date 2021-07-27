@@ -1,0 +1,293 @@
+@import 
+url(https://fonts.googleapis.com/earlyaccess/notonaskharabic.css);
+
+:root{
+    color: white;
+    font-family: Trebuchet MS;
+    font-size: 16px;
+}
+
+.profileimg{
+    display: flex;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+body{
+    padding:50px;
+}
+
+.content
+{
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    margin-right: 7rem;
+    width: 500px;
+}
+
+.project {
+    background: #292D33;
+    box-shadow: 0 5px 10px -5px rgba(0,0,0,0.50);
+    border-radius: 8px;
+    padding: 32px;
+    display: block;
+    margin-bottom: 56px;
+}
+
+.float-right {
+	float: right;
+    margin-left:60px;
+}
+
+.align-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.icon {
+    max-height: 50px;
+    align-self: baseline;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover h2{
+    color:tomato;
+}
+
+.projects {
+    margin-bottom: 24px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+input[type=submit] {
+background-color: tomato;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.container {
+border-radius: 8px;
+background-color: #292D33;
+padding: 20px;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.one {
+    margin-top: 0px;
+}
+
+.inline {
+    display: inline-block;
+    align-self: baseline;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.two {
+    margin-right: 8px;
+    margin-left: 8px;
+}
+ 
+.three{
+    margin-right: 8px;
+    color:tomato;
+}
+
+
+hr { 
+    margin-top:56px;
+    border: 1px solid white;
+}
+
+@media only screen and (max-width:1000px){
+    @import url(https://fonts.googleapis.com/earlyaccess/notonaskharabic.css);
+
+    :root{
+        color: white;
+        font-family: Trebuchet MS;
+        font-size: 16px;
+    }
+
+    .profileimg{
+        display: flex;
+    }
+
+    .about{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    body{
+        padding:50px;
+    }
+
+    .content
+    {
+        display: inline-block;
+        vertical-align: top;
+        text-align: justify;
+        margin-right: 7rem;
+        width: 500px;
+    }
+
+    .project {
+        background: #292D33;
+        box-shadow: 0 5px 10px -5px rgba(0,0,0,0.50);
+        border-radius: 8px;
+        padding: 32px;
+        display: block;
+        margin-bottom: 56px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .float-right {
+        float: none;
+        margin-left:0px;
+        position: absolute;
+        display: none;
+    }
+
+    .align-row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .icon {
+        max-height: 25px;
+        align-self: baseline;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover h2{
+        color:tomato;
+    }
+
+    .projects {
+        margin-bottom: 24px;
+    }
+
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+    
+    input[type=submit] {
+    background-color: tomato;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+
+    .container {
+    border-radius: 8px;
+    background-color: #292D33;
+    padding: 20px;
+    }
+
+    .text-right {
+        text-align: right;
+    }
+
+    .one {
+        margin-top: 0px;
+    }
+
+    .inline {
+        /* display: inline-block; */
+        align-self: baseline;
+        position: absolute;
+        margin-top: 50px;
+    }
+
+    .two {
+        margin-right: 8px;
+        margin-left: 8px;
+    }
+    
+    .three{
+        margin-right: 8px;
+        color:tomato;
+    }
+
+
+    hr { 
+        margin-top:56px;
+        border: 1px solid white;
+    }
+
+    .findmore{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: absolute;
+        margin-left: -30px;
+        visibility: hidden;
+        /* display: none; */
+    }
+
+    .title{
+        margin-top: 4rem;
+    }
+
+    .description{
+        text-align:justify;
+    }
+
+}
+
+
+
+
+
+
+
+
+
